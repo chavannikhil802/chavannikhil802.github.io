@@ -1,2 +1,2 @@
 # chavannikhil802.github.io
- Simple HTMl Calculator
+ Simple HTML Calculator
