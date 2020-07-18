@@ -1,0 +1,87 @@
+.container {
+    max-width: 1400px;
+}
+.top-row {
+    padding: 12px;
+}
+hr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-width: 2px;
+    background-color: #4f90cd;
+}
+.container .top-row .col .employee-info {
+    color:#4f90cd;
+    font-size: 1.5rem;
+}
+.container .top-row .col p {
+    margin-bottom: 0;
+}
+#middle-col {
+    text-align: right;
+}
+.fa .fa-envelope {
+    font-size: x-large;
+}
+.col-1 {
+    text-align: center;
+    padding-left: 0;
+}
+.col-5 {
+    padding-right: 0;
+}
+.col-5 p,.col-1 p {
+    margin-bottom:5px;
+}
+.organization, .college, .languages {
+    font-size:1.3rem;
+    margin-bottom:0;
+}
+.description p {
+    font-size:1rem;
+    margin-bottom:0;
+}
+.col-2 p {
+    font-size:16px;
+    margin-bottom:0; 
+}
+em {
+    color:#4f90cd;
+}
+p, li,.col em {
+    font-size: 14px;
+}
+.vl {
+    border-left: 2px solid #4f90cd;
+    max-height: 1400px;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+  .vl-small {
+    border-left: 2px solid #4f90cd;
+    max-height: 140px;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+  
+  progress::-webkit-progress-value {
+    background: #4f90cd;
+  }
+
+  progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+  progress[value] {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+     appearance: none;
+    width: 150px;
+    height: 15px;
+  }
