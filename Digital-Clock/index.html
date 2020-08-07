@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="script/TimeScript.js"></script>
+        <meta charset="utf-8">
+        <title>Using particle.js for Background</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body id="particles-js" onload="showTime()">
+        <div class="container">
+            <div class="row">
+                <div class="col-2"></div>
+                <!-- HOUR TILE -->
+                <div class="col" id="hour-tile">
+                    <div class="time" id="hour"></div>
+                    <div class="labels">HOURS</div>
+                </div>
+                <!-- END OF HOUR TILE -->
+                <!-- MINUTE TILE -->
+                <div class="col" id="minute-tile">
+                    <div class="time" id="minute"></div>
+                    <div class="labels">MINUTES</div>
+                </div>
+                <!-- END OF MINUTE TILE -->
+                <div class="col-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-2"></div>
+                <!-- SECOND TILE -->
+                <div class="col" id="second-tile">
+                    <div class="time" id="seconds"></div>
+                    <div class="labels">SECONDS</div>
+                </div>
+                <!-- END OF SECOND TILE -->
+                <!-- AM/PM TILE -->
+                <div class="col" id="ampm-tile">
+                    <div class="time" id="ampm"></div>
+                    <div class="labels">AM/PM</div>
+                </div>
+                <!-- END OF WM/PM TILE -->
+                
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="script/particles.js"></script>
+    <script type="text/javascript" src="script/app.js"></script>
+</html>
