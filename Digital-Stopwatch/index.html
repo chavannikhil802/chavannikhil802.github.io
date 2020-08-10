@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Digital Stopwatch</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    </head>
+    <!-- <body id="particles-js"> -->
+    <body>
+        <div class="container">
+            <div class="row">
+                <!-- MINUTE TILE -->
+                <div class="col" id="minute-tile">
+                    <div class="time" id="minute">00</div>
+                    <div class="labels">MINS</div>
+                </div>
+                <!-- END OF MINUTE TILE -->
+                <!-- SECOND TILE -->
+                <div class="col" id="second-tile">
+                    <div class="time" id="seconds">00</div>
+                    <div class="labels">SECS</div>
+                </div>
+                <!-- END OF SECOND TILE -->
+                <!-- MILLISECONDS TILE -->
+                <div class="col" id="ms-tile">
+                    <div class="time" id="ms">00</div>
+                    <div class="labels">MS</div>
+                </div>
+                <!-- END OF MILLISECONDS TILE -->
+                <!-- BUTTONS TILE -->
+                <div class="col button-col" id="button-tile">
+                    <div class="row">
+                        <button id="start" onclick="start()">START</button>
+                    </div>
+                    <div class="row">
+                        <button id="pause" onclick="pause()">PAUSE</button>
+                    </div>
+                    <div class="row">
+                        <button id="reset" onclick="reset()">RESET</button>
+                    </div>
+                </div>
+                <!-- END OF BUTTON TILE -->
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="script/TimeScript.js"></script>
+</html>

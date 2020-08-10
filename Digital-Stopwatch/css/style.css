@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+
+.col {
+    margin: 10px;
+    text-align:center;
+    font-size: 65px;
+}
+/* STYLE TO DISPLAY THE CONTENTS IN THE CENTER  */
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+/* DISPLAYING THE TIME IN THE CENTER OF THE TILE  */
+#minute-tile, #second-tile, #ms-tile {
+    padding-top: 60px;
+    font-family: 'Orbitron';
+}
+
+.time, .labels {
+    padding: 10px;
+}
+/* CSS FOR MINS, SECS AND MS */
+.labels {
+    font-size: 25px;
+    border-top: 1px solid;
+}
+/* CSS FOR THE TILES */
+#minute-tile, #second-tile, #ms-tile, #button-tile {
+    opacity: 1;
+    color: white;
+    border: 2px solid white;    
+}
+/* CSS FOR THE FONT OF THE BUTTONS */
+#button-tile .row{
+    text-align:center;
+    font-size: 25px;
+    font-family: 'Orbitron';
+}
+/* CSS FOR THE BUTTONS SIZE */
+button {
+    cursor: pointer;
+    width: 358px;
+    height: 100px;
+    background-color: transparent;
+    transition: 0.5s;
+}
+/* CSS FOR THE BUTTON COLORS AND ITS EFFECTS */
+#start {
+    color:#00fe00;
+}
+#pause {
+    color:#fffc00;
+}
+#reset {
+    color: #00dcff;
+}
+#start:hover {
+    border:5px solid #00fe00;
+    box-shadow: 0 2px 2px 0 #00fe00, 5px 6px 40px 5px #00fe00;
+}
+#pause:hover {
+    border:5px solid #fffc00;
+    box-shadow: 0 2px 2px 0 #fffc00, 5px 6px 40px 5px #fffc00;
+}
+#reset:hover {
+    border:5px solid #00dcff;
+    box-shadow: 0 2px 2px 0 #00dcff, 5px 6px 40px 5px #00dcff;
+}
