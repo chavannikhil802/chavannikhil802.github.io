@@ -1,0 +1,42 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+#row-color-panel {
+    height: 350px;
+    transition: 0.3s;
+}
+#row-button, #row-heading {
+    height: 80px;
+}
+#row-heading {
+    text-align: center;
+    display: block;
+}
+#row-button button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+#button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 0.5px #ffffff;
+    transition: 0.3s;
+
+}
+#button:hover {
+    border:2px solid #00febe;
+    box-shadow: 0 2px 2px 0 #00febe, 5px 6px 40px 5px #00febe;
+}
