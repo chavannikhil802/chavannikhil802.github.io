@@ -385,3 +385,10 @@ margin-bottom: 20px; }
 .profile {
     padding: 20px 0;
 }
+
+.contact-us-form {
+    padding: 2% 0;
+    background: #0082e6;
+    color: white;
+    text-align: center;
+}
