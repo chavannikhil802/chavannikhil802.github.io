@@ -23,7 +23,7 @@ p {
 
 label.logo {
     color: white;
-    font-size: 28px !important;
+    font-size: 30px;
     line-height: 75px !important;
     padding: 0 100px;
     font-weight: bold;
@@ -32,6 +32,7 @@ label.logo {
 nav ul {
     float: right;
     margin-right: 20px;
+    max-width: auto;
 }
 
 nav ul li {
@@ -69,7 +70,7 @@ nav ul li a:active, a:hover {
 
 @media (max-width: 952px){
     label.logo{
-        font-size: 30px;
+        /* font-size: 30px; */
         padding-left: 50px;
     }
 
@@ -78,7 +79,7 @@ nav ul li a:active, a:hover {
     }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 858px) {
     .checkbtn {
         display: block;
     }
@@ -107,8 +108,11 @@ nav ul li a:active, a:hover {
     #check:checked ~ ul {
         left: 0;
     }
-    label .logo {
-        font-size: 16px;
+    label.logo {
+        font-size: 18px;
+    }
+    .what-we-do img {
+        width: 300px;
     }
 }
 
@@ -162,7 +166,7 @@ nav ul li a:active, a:hover {
 
 @media (max-width: 858px) {
     .top-header .container .social-media .col-sm-12,.col-md-6,.col-lg-6 i,
-    .top-header .container .site-logo .col-sm-12, .col-md-6, .col-lg-6{
+    .top-header .container .site-logo .col-sm-12, .col-md-6, .col-lg-6, #social {
         text-align: center;
 }
 
