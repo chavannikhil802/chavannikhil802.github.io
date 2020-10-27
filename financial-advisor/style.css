@@ -48,6 +48,9 @@ nav ul li a {
     padding: 7px 14px;
     border-radius: 3px;
 }
+.about-us h1, .life-insurance h1, .deposit h1, .general h1, .mutual-fund h1 {
+    text-transform: uppercase;
+}
 
 nav ul li a:active, a:hover {
     /* background: #1b9bff; */
@@ -91,7 +94,7 @@ nav ul li a:active, a:hover {
         left: -100%;
         text-align: center;
         transition: all .5s;
-        z-index: 1;
+        z-index: -1;
     }
     #menu-bar ul li {
         display: block;
@@ -157,6 +160,11 @@ nav ul li a:active, a:hover {
 
 #social {
         text-align: right;
+
+}
+
+.fab {
+    cursor: pointer;
 }
 
 .top-header .container .social-media .col-sm-12,.col-md-6,.col-lg-6 i {
@@ -243,7 +251,7 @@ nav ul li a:active, a:hover {
 
 .carousel-caption {
     background-color:white;
-    opacity:0.6;
+    opacity:0.8;
 }
 
 .carousel-caption h3 {
@@ -398,4 +406,15 @@ margin-bottom: 20px; }
     background: #0082e6;
     color: white;
     text-align: center;
+}
+
+#myCarousel img:hover, .what-we-do img:hover, .life-insurance img:hover, 
+.deposit img:hover, .general img:hover, .mutual-fund img:hover {
+    transition: transform .5s;
+    transform: scale(1.1); 
+}
+
+.life-insurance img, .deposit img {
+    margin-top: 12%;
+    border-radius: 5px;
 }
