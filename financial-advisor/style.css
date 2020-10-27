@@ -78,7 +78,7 @@ nav ul li a:active, a:hover {
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
     .checkbtn {
         display: block;
     }
@@ -106,6 +106,9 @@ nav ul li a:active, a:hover {
     }
     #check:checked ~ ul {
         left: 0;
+    }
+    label .logo {
+        font-size: 16px;
     }
 }
 
