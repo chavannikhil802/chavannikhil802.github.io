@@ -160,7 +160,7 @@ i {
     top: 100px;
     right: 0;
     width: 180px;
-    height: 100%;
+    height: calc(100% - 100px);
     display: flex;
     padding-top: 10%;
     justify-content: center;
