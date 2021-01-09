@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Landing Video Page</title>
+</head>
+<body>
+    <section class="showcase">
+
+        <header>
+            <h2 class="logo">Travel</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <img src="images/nature.jpg"></img>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Exploring the World</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Ullam et porro unde consectetur sed ad officia dolorem natus tenetur laborum?
+            </p>
+            <a href="#">Explore</a>
+        </div>
+
+    </section>
+
+    <ul class="social">
+        <li><a href=""><i class="fa fa-facebook" style="font-size:48px"></i></a></li>
+        <li><a href=""><i class="fa fa-google-plus" style="font-size:48px"></i></a></li>
+        <li><a href=""><i class="fa fa-instagram" style="font-size:48px;"></i></a></li>
+        <li><a href=""><i class="fa fa-linkedin" style="font-size:48px;"></i></i></a></li>
+        <li><a href=""><i class="fa fa-twitter" style="font-size:48px;"></i></i></a></li>
+    </ul>
+
+    <div class="menu">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
