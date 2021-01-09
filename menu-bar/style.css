@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 
 .showcase {
@@ -26,6 +27,7 @@
 .showcase.active {
     top: 100px;
     right: 180px;
+    overflow-y:hidden;
 }
 
 .showcase header {
