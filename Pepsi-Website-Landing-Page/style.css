@@ -140,3 +140,19 @@ header ul li a {
     align-items: center;
     flex-direction: column;
 }
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    filter: invert(1);
+    margin: 5px;
+    transform: scale(0.6);
+    transition: 0.5s;
+}
+
+.sci li a:hover {
+    transform: scale(0.8);
+}
