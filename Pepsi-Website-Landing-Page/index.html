@@ -36,9 +36,9 @@
                 </div>
             </div>
             <ul class="thumb">
-                <li><img src="images/pepsi001.png" alt=""></li>
-                <li><img src="images/pepsi002.png" alt=""></li>
-                <li><img src="images/pepsi003.png" alt=""></li>
+                <li><img src="images/pepsi001.png" onclick="imageSlider('images/pepsi001.png')"></li>
+                <li><img src="images/pepsi002.png" onclick="imageSlider('images/pepsi002.png')"></li>
+                <li><img src="images/pepsi003.png" onclick="imageSlider('images/pepsi003.png')"></li>
             </ul>
             <ul class="sci">
                 <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
@@ -46,5 +46,10 @@
                 <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
             </ul>
         </section>
+        <script type="text/javascript">
+            function imageSlider(anything) {
+                document.querySelector('.pepsi').src = anything;
+            }
+        </script>
     </body>
 </html>
