@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
 }
 
 section {
@@ -170,4 +171,44 @@ header ul li a:hover {
 
 .sci li a:hover {
     transform: scale(0.8);
+}
+
+@media (max-width: 991px) {
+    section {
+        padding: 40px;
+    }
+    header {
+        padding: 20px 40px;
+    }
+    header .logo {
+        position: relative;
+        max-width: 50px;
+    }
+    header ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        z-index: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.2s;
+        visibility: hidden;
+        opacity: 0;
+    }
+    header ul li a {
+        display: inline-block;
+        color: #111;
+        font-weight: 400;
+        margin-left: 0;
+        text-decoration: none;
+        font-size: 2em;
+        margin: 10px 0;
+    }
+    header ul li a:hover {
+        color: #0062be;
+    }
 }
