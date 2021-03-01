@@ -32,7 +32,7 @@ header {
 
 header .logo {
     position: relative;
-    max-width: 80px;
+    max-width: 70px;
 }
 
 header ul {
@@ -50,6 +50,11 @@ header ul li a {
     font-weight: 400;
     margin-left: 40px;
     text-decoration: none;
+    transition: 0.5s;
+}
+
+header ul li a:hover {
+    letter-spacing: 1px;
 }
 
 .content {
@@ -92,6 +97,11 @@ header ul li a {
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.content .textBox a:hover {
+    letter-spacing: 2px;
 }
 
 .content .imgBox {
@@ -103,7 +113,12 @@ header ul li a {
 }
 
 .content .imgBox img {
-    max-width: 260px;
+    max-width: 250px;
+    transition: 0.5s;
+}
+
+.content .imgBox img:hover {
+    max-width: 265px;
 }
 
 .thumb {
