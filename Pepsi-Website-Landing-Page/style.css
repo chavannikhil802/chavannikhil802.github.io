@@ -51,3 +51,11 @@ header ul li a {
     margin-left: 40px;
     text-decoration: none;
 }
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
