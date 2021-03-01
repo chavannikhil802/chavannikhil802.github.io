@@ -113,3 +113,11 @@ header ul li a {
     transform: translateX(-50%);
     display: flex;
 }
+
+.thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
