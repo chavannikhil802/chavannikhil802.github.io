@@ -121,3 +121,7 @@ header ul li a {
     cursor: pointer;
     transition: 0.5s;
 }
+
+.thumb li img {
+    max-width: 40px;
+}
