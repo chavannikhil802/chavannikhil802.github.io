@@ -101,3 +101,7 @@ header ul li a {
     margin-top: 50px;
     justify-content: flex-end;
 }
+
+.content .imgBox img {
+    max-width: 260px;
+}
