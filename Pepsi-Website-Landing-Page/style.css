@@ -122,6 +122,10 @@ header ul li a {
     transition: 0.5s;
 }
 
+.thumb li:hover {
+    transform: translateY(-20px);
+}
+
 .thumb li img {
     max-width: 40px;
 }
