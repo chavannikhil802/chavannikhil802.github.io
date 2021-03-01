@@ -176,6 +176,7 @@ header ul li a:hover {
 @media (max-width: 991px) {
     section {
         padding: 40px;
+        padding-bottom: 140px;
     }
     header {
         padding: 20px 40px;
@@ -234,5 +235,42 @@ header ul li a:hover {
         z-index: 2;
         cursor: pointer;
         filter:invert(1);
+    }
+    .content {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .content .textBox {
+        position: relative;
+        max-width: 100%;
+        padding-right: 20px;
+    }
+    .content .textBox h2 {
+        font-size: 3em;
+    }
+    .content .textBox a {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    .content .imgBox {
+        width: 100%;
+        display: flex;
+        padding-right: 0;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .thumb li img {
+        max-width: 30px;
+    }
+    .sci {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 50px;
+        background: rgba(0,0,0,0.2);
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
