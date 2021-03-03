@@ -41,3 +41,14 @@ nav {
 .nav-links li {
     position: relative;
 }
+.nav-links li a:before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    top: 25px;
+    background-color: #61dafb;
+    position: absolute;
+    transition: all ease-in-out 250ms;
+    margin: 0 0 0 10%;
+}
