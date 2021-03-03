@@ -1,33 +1,60 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Responsive Menu</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <section>
-            <header>
-                <nav class="nav" id="navbar">
-                    <div class="logo" id="logo">
-                        <h1>Food<span>.</span></h1>
-                    </div>
-                    <div class="hanburger" id="hamburger">
-                        <div id="line1"></div>
-                        <div id="line2"></div>
-                        <div id="line3"></div>
-                    </div>
-                    <ul class="nav-links">
-                        <li><a href="" id="home">Home</a></li>
-                        <li><a href="" id="home">About Us</a></li>
-                        <li><a href="" id="home">Menu</a></li>
-                        <li><a href="" id="home">Testimonials</a></li>
-                        <li><a href="" id="home">Contact Us</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </section>
-        <section class="home"></section>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <style>
+        section {
+            min-height: 100vh;
+            background-image: url(images/bg.jpg);
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
+            position: relative;
+        }
+
+        section::before {
+            content: '';
+            position: absolute;
+            box-sizing: border-box;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #000000;
+            opacity: 0.7;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav" id="navbar">
+            <div class="logo" id="logo">
+                <h1>Food<span>.</span></h1>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <div id="line1"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="service">Services</a></li>
+                <li><a href="#" id="work">Work</a></li>
+                <li><a href="#" id="about">About</a></li>
+                <li><a href="#" id="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home">
+    </section>
+    <script src="javascript/nav.js" defer></script>
+</body>
+
 </html>
