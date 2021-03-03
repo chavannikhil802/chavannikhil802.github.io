@@ -41,7 +41,7 @@ nav {
 .nav-links li {
     position: relative;
 }
-.nav-links li a:before {
+.nav-links li a::before {
     content: "";
     display: block;
     height: 3px;
@@ -51,4 +51,17 @@ nav {
     position: absolute;
     transition: all ease-in-out 250ms;
     margin: 0 0 0 10%;
+}
+.nav-links li a:hover::before {
+    width: 80%;
+}
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.hamburger {
+    display: none;
 }
