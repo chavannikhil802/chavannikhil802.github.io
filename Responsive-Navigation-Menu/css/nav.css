@@ -108,7 +108,7 @@ nav {
     width: 100%;
     flex-direction: column;
     justify-content: center;
-    clip-path: circle(50px at 90% -20%);
+    clip-path: circle(50px at -11% 111%);
     transition: all 1s ease-out;
     pointer-events: none;
   }
@@ -134,19 +134,19 @@ nav {
     transition: all 0.5s ease 0.2s;
   }
   .nav-links li:nth-child(2) {
-    transition: all 0.5s ease 0.4s;
+    transition: all 0.5s ease 0.3s;
   }
   .nav-links li:nth-child(3) {
-    transition: all 0.5s ease 0.6s;
+    transition: all 0.5s ease 0.4s;
   }
   .nav-links li:nth-child(4) {
-    transition: all 0.5s ease 0.7s;
+    transition: all 0.5s ease 0.5s;
   }
   .nav-links li:nth-child(5) {
-    transition: all 0.5s ease 0.8s;
+    transition: all 0.5s ease 0.6s;
   }
   .nav-links li:nth-child(6) {
-    transition: all 0.5s ease 0.9s;
+    transition: all 0.5s ease 0.7s;
     margin: 0;
   }
   .nav-links li:nth-child(7) {
