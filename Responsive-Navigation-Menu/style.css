@@ -10,3 +10,22 @@ nav {
     font-weight: 300;
     transition: 0.2 ease-in-out;
 }
+.logo {
+    padding: 1vh 2vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    width: 25rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    width: 90vw;
+    padding-right: 2vw;
+    justify-content: flex-end;
+    align-items: center;
+}
