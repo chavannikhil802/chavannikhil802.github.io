@@ -38,3 +38,6 @@ nav {
 .nav-links li a:hover {
     color: #61dafb;
 }
+.nav-links li {
+    position: relative;
+}
