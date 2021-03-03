@@ -29,3 +29,12 @@ nav {
     justify-content: flex-end;
     align-items: center;
 }
+.nav-links li a {
+    text-decoration: none;
+    margin: 0 1.7vw;
+    color: #fff;
+    font-family: sans-serif;
+}
+.nav-links li a:hover {
+    color: #61dafb;
+}
