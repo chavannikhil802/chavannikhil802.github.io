@@ -1,3 +1,12 @@
 body {
     overflow-x: hidden;
 }
+nav {
+    height: 4rem;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    font-weight: 300;
+    transition: 0.2 ease-in-out;
+}
