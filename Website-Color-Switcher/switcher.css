@@ -42,3 +42,12 @@ body.dark nav {
     cursor: pointer;
     padding-right: 2.5rem;
 }
+
+strong {
+    color: var(--indigo-900);
+    font-size: 20px;
+}
+
+body.dark strong {
+    color: var(--white);
+}
