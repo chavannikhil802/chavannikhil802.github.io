@@ -106,3 +106,19 @@ main p {
     line-height: 1.4;
     font-size: 21px;
 }
+
+button {
+    background-color: var(--indigo-600);
+    color: var(--white);
+    border: 2px solid var(--indigo-600);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: lowercase;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 220px;
+    padding: 15px 33px;
+    margin: 2rem auto;
+    transition: all 0.2s linear;
+    font-family: sans-serif;
+}
