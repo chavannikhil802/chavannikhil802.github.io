@@ -62,3 +62,17 @@ body.dark strong {
     right: 5;
     position: absolute;
 }
+
+.label {
+    background-color: var(--indigo-900);
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 18px;
+    width: 48px;
+    transform: scale(1.25);
+}
