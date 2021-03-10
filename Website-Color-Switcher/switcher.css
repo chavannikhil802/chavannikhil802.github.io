@@ -33,3 +33,12 @@ nav {
 body.dark nav {
     background-color: var(--indigo-600);
 }
+
+.nav-links a {
+    color: var(--indigo-900);
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 2.5rem;
+}
