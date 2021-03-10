@@ -1,7 +1,7 @@
 :root {
     --dark-grey: #111827;
     --white: #f8f8f8;
-    --indigo-100: #e0e7ff;
+    --indigo-100: #cbd7ff;
     --indigo-300: #a5b4fc;
     --indigo-400: #818cf8;
     --indigo-600: #4338ca;
@@ -49,7 +49,7 @@ body.dark .nav-links a {
 
 strong {
     color: var(--indigo-900);
-    font-size: 20px;
+    font-size: 40px;
 }
 
 body.dark strong {
@@ -102,15 +102,18 @@ main {
     margin: 7% auto;
 }
 
+main h1 {
+    transition: transform 0.2s;
+}
+
 main p {
     line-height: 1.4;
     font-size: 21px;
 }
 
 button {
-    background-color: var(--indigo-600);
-    color: var(--white);
-    border: 2px solid var(--indigo-600);
+    background-color: var(--indigo-100);
+    border: 2px solid var(--indigo-100);
     font-size: 18px;
     font-weight: 400;
     text-transform: lowercase;
@@ -121,4 +124,10 @@ button {
     margin: 2rem auto;
     transition: all 0.2s linear;
     font-family: sans-serif;
+}
+
+body.dark main button {
+    background-color: var(--indigo-600);
+    border: 2px solid var(--indigo-600);
+    color: var(--white);
 }

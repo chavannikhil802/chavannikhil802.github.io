@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Background Color Switch/Toggle Effect</title>
+    <title>Toggle Theme Effect</title>
     <link rel="stylesheet" href="switcher.css">
 </head>
 <body>
     <nav>
-        <strong>Brand</strong>
+        <strong>BRAND</strong>
         <div class="nav-links">
             <a href="">Home</a>
             <a href="">About</a>
@@ -24,7 +24,7 @@
         </div>
     </nav>
     <main class="container">
-        <h1>Background Color Toggle / Changer</h1>
+        <h1>Current Theme: <span id="title">Light Theme</span></h1>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo distinctio, nobis odit cupiditate quae quod temporibus? 
             Alias mollitia beatae et consequatur tenetur adipisci eveniet nam aliquid, nesciunt velit. Eligendi, nisi!
@@ -38,8 +38,15 @@
 
     <script>
         const theme = document.getElementById('themeToggle');
+        const title = document.getElementById('title');
         theme.addEventListener('change', () => {
             document.body.classList.toggle('dark');
+            if(title.innerHTML === "Light Theme") {
+                title.innerHTML= "Dark Theme";
+            }
+            else {
+                title.innerHTML= "Light Theme";
+            }
         });
     </script>
 </body>
