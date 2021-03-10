@@ -92,3 +92,12 @@ body.dark strong {
 .checkbox:checked + .label .ball {
     transform: translateX(28px);
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 60vw;
+    margin: 7% auto;
+}
