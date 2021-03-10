@@ -88,3 +88,7 @@ body.dark strong {
     transform: translateX(0px);
     transition: transform 0.2s linear;
 }
+
+.checkbox:checked + .label .ball {
+    transform: translateX(28px);
+}
