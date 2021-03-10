@@ -35,5 +35,12 @@
         </p>
         <button>Get Started Now</button>
     </main>
+
+    <script>
+        const theme = document.getElementById('themeToggle');
+        theme.addEventListener('change', () => {
+            document.body.classList.toggle('dark');
+        });
+    </script>
 </body>
 </html>
