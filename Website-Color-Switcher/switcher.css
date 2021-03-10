@@ -43,6 +43,10 @@ body.dark nav {
     padding-right: 2.5rem;
 }
 
+body.dark .nav-links a {
+    color: var(--white);
+}
+
 strong {
     color: var(--indigo-900);
     font-size: 20px;
