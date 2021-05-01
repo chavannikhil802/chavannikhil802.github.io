@@ -7,10 +7,10 @@
 body {
     background: url('./wood.jpg');
 }
-.navbar-brand>img {
-    display: block;
+#logo {
     background-color: #fff;
     border-radius: 10px;
+    margin-top: 1%;
 }
 .sky {
     padding-top: 9%;

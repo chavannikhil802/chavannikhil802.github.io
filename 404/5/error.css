@@ -6,11 +6,12 @@
 }
 body {
     background: url('./wood.jpg');
+    background-size: cover;
 }
-.navbar-brand>img {
-    display: block;
+#logo {
     background-color: #fff;
     border-radius: 10px;
+    margin-top: 1%;
 }
 .sky h2 {
     font-size: 16em;
