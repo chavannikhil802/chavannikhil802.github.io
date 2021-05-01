@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: 'consolas';
+    text-align: center;
+}
+body {
+    background: url('./wood.jpg');
+}
+.navbar-brand>img {
+    display: block;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.sky h2 {
+    font-size: 16em;
+    color: #fff;
+    text-shadow: 15px 15px 0 rgba(0,0,0,0.1);
+    padding: 5% 0 2% 0;
+    margin: 0;
+}
+.sky h2 span {
+    display: inline-block;
+    animation: animate 2s ease-in-out infinite;
+}
+.sky h2 span:nth-child(1) {
+    animation-delay: -1s;
+}
+.sky h2 span:nth-child(2) {
+    animation-delay: -1.5s;
+}
+.sky h2 span:nth-child(3) {
+    animation-delay: -2s;
+}
+@keyframes animate {
+    0%, 100% {
+        transform: translateY(-40px);
+    }
+    50% {
+        transform: translateY(40px);
+    }
+}
+.field{ 
+    display: grid;
+}
+.field h2 {
+    color: #fff;
+    font-size: 2.5em;
+    margin: 0 auto 20px auto;
+    padding: 0 20px;
+}
+.field a {
+    background: #fff;
+    color: #000;
+    padding: 5px 20px;
+    line-height: 50px;
+    border-radius: 50px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    margin: auto;
+}
+.field p {
+    font-size: 1.2em;
+    margin: auto;
+    padding: 0 20px 30px 20px;
+    color: #fff;
+}
+@media(max-width: 550px) {
+    .sky h2 {
+        font-size: 12em;
+        padding-top: 25%;
+        padding-bottom: 10%;
+    }
+    .field h2 {
+        font-size: 2em;
+    }
+    .field a {
+        font-size: 1em;
+        padding: 0 18px;
+    }
+    .field p {
+        font-size: 1em;
+    }
+}
+@media(max-width: 400px) {
+    .sky h2 {
+        font-size: 10em;
+        padding-top: 40%;
+        padding-bottom: 15%;
+    }
+    .field h2 {
+        font-size: 1.8em;
+    }
+    .field a {
+        font-size: 1em;
+        padding: 0 18px;
+    }
+}

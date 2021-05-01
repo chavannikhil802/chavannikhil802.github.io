@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body {
+    background: url('./wood.jpg');
+    background-size: cover;
+}
+.navbar-brand>img {
+    display: block;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.page_404 {
+    padding: 6% 0 0 0;
+    background: #fff0;
+    font-family: 'Poppins';
+}
+.page_404 img {
+    width: 100%;
+}
+.four_zero_four_bg {
+    background: url('./error.gif');
+    height: 420px;
+    background-position: center;
+}
+#error {
+    font-size: 7em;
+    margin: 0;
+}
+#error-text {
+    font-size: 4em;
+    margin: 0;
+    color: #fff;
+}
+#error-para {
+    font-size: 1.5em;
+    color: #fff;
+}
+#button {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #39ac31;
+    display: inline-block;
+    border-radius: 5px;
+}
+.content-box_404 {
+    background-color: #111;
+    padding: 1%;
+}
