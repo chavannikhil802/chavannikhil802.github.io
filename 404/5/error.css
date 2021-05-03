@@ -11,11 +11,11 @@ body {
 #logo {
     background-color: #fff;
     border-radius: 10px;
-    margin-top: 1%;
+    margin-top: 4%;
 }
 .sky h2 {
     font-size: 16em;
-    color: #542c2c;
+    color: #fff;
     text-shadow: 15px 15px 0 rgba(0, 0, 0, 0.1);
     padding: 5% 0 2% 0;
     margin: 0;
@@ -40,15 +40,15 @@ body {
     display: grid;
 }
 .field h2 {
-    color: #542c2c;
+    color: #fff;
     font-size: 2.5em;
     font-weight: 700;
     margin: 0 auto 20px auto;
     padding: 0 20px;
 }
 .field a {
-    background: #542c2c;
-    color: #fff;
+    background: #fff;
+    color: #542c2c;
     padding: 5px 20px;
     line-height: 50px;
     border-radius: 50px;
@@ -59,15 +59,15 @@ body {
 }
 .field a:hover {
     text-decoration: none;
-    background: #fff;
-    color: #542c2c;
+    background: #542c2c;
+    color: #fff;
 }
 .field p {
     font-size: 1.3em;
     font-weight: 700;
     margin: auto;
     padding: 0 20px 30px 20px;
-    color: #542c2c;
+    color: #fff;
 }
 @media(max-width: 550px) {
     .sky h2 {
@@ -85,6 +85,10 @@ body {
     .field p {
         font-size: 1em;
     }
+    #logo {
+        margin-top: 10%;
+        width: 80%;
+    }
 }
 @media(max-width: 400px) {
     .sky h2 {
@@ -98,5 +102,8 @@ body {
     .field a {
         font-size: 1em;
         padding: 0 18px;
+    }
+    #logo {
+        margin-top: 15%;
     }
 }
