@@ -10,8 +10,8 @@
         <link rel="stylesheet" href="style.css">
         <title>User Card</title>
     </head>
-    <body>
-        <section class="sec">
+    <body onload="checkMode()">
+        <section id="section" class="sec">
             <div class="card">
                 <div class="toggle"></div>
                 <div class="content">
@@ -34,6 +34,14 @@
             const toggle = document.querySelector('.toggle');
             toggle.onclick =function() {
                 sec.classList.toggle('dark');
+                var theme = document.getElementById("section").className;
+                localStorage.setItem('theme', theme);
+            }
+            // FUNCTION TO APPLY THE CURRENT THEME WHEN THE PAGE IS RELOADED
+            function checkMode() {
+                if(localStorage.getItem('theme') == "sec dark") {
+                    document.getElementById("section").classList.add("dark");
+                }
             }
         </script>
     </body>
