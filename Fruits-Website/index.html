@@ -37,5 +37,18 @@
             <li data-text="Pineapple"><img src="images/pineApple.png" alt="Pineapple"></li>                                    
         </div>
     </section>
+    <script>
+        // ADDING ACTIVE CLASS IN THE SELECTED THUMBNAILS
+        let el = document.querySelectorAll('.thumb li');
+        for(let i=0; i<el.length; i++) {
+            el[i].onclick = function() {
+                var c=0;
+                while(c<el.length) {
+                    el[c++].className = 'check';
+                }
+                el[i].className = 'check active';
+            }
+        }
+    </script>
 </body>
 </html>

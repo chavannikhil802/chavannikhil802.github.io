@@ -131,6 +131,18 @@ header .navigation li a.active, header .navigation li a:hover {
     padding: 5px;
     border: 2px solid rgba(255, 255, 255, 0.25);
 }
+.thumb li.active {
+    border: 2px solid rgba(255, 255, 255, 1);
+}
+.thumb li::before {
+    position: absolute;
+    content: attr(data-text);
+    top: -200px;
+    left: -100px;
+    white-space: nowrap;
+    font-size: 8em;
+    color: rgba(0, 0, 0, 0.5);
+}
 .thumb li img {
     max-width: 50px;
 }
