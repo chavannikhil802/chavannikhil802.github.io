@@ -71,3 +71,8 @@ header .navigation li a.active, header .navigation li a:hover {
     background: #fff;
     color: #333;
 }
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
