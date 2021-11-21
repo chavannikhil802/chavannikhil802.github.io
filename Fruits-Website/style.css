@@ -141,8 +141,15 @@ header .navigation li a.active, header .navigation li a:hover {
     left: -100px;
     white-space: nowrap;
     font-size: 8em;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(71, 35, 35, 0.05);
+    opacity: 0;
+    font-weight: 700;
+    pointer-events: none;
+}
+.thumb li.active::before {
+    opacity: 1;
+
 }
 .thumb li img {
-    max-width: 50px;
+    max-width: 60px;
 }
