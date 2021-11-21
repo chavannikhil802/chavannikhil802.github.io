@@ -30,11 +30,11 @@
             </div>
         </div>
         <ul class="thumb">
-            <li data-text="Apple" class="active"><img src="images/apple.png" alt="Apple" onclick="imgSlider('images/apple.png')"></li>
-            <li data-text="Mango"><img src="images/mango.png" alt="Mango" onclick="imgSlider('images/mango.png')"></li>
-            <li data-text="Watermelon"><img src="images/watermelon.png" alt="Watermelon" onclick="imgSlider('images/watermelon.png')"></li>
-            <li data-text="Dragon Fruits"><img src="images/dragonfruits.png" alt="Dragon Fruits" onclick="imgSlider('images/dragonfruits.png')"></li>
-            <li data-text="Pineapple"><img src="images/pineApple.png" alt="Pineapple" onclick="imgSlider('images/pineApple.png')"></li>                                    
+            <li data-text="Apple" class="active"><img src="images/apple.png" alt="Apple" onclick="imgSlider('images/apple.png'); changeBgColor('#fc4a55')"></li>
+            <li data-text="Mango"><img src="images/mango.png" alt="Mango" onclick="imgSlider('images/mango.png'); changeBgColor('#ffcc02')"></li>
+            <li data-text="Watermelon"><img src="images/watermelon.png" alt="Watermelon" onclick="imgSlider('images/watermelon.png'); changeBgColor('#92ba3c')"></li>
+            <li data-text="Dragon Fruits"><img src="images/dragonfruits.png" alt="Dragon Fruits" onclick="imgSlider('images/dragonfruits.png'); changeBgColor('#fb6cb2')"></li>
+            <li data-text="Pineapple"><img src="images/pineApple.png" alt="Pineapple" onclick="imgSlider('images/pineApple.png'); changeBgColor('#ffb42c')"></li>                                    
         </ul>
         <ul class="sci">
             <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
@@ -46,6 +46,11 @@
         // CHANGING THE IMAGE WHEN THE USER CLICKS ON THE THUMBNAIL
         function imgSlider(anything) {
             document.querySelector('.fruits').src = anything;
+        }
+        // CHANGING THE BACKGROUND COLOR
+        function changeBgColor(color) {
+            const bg = document.querySelector('.bg');
+            bg.style.background = color;
         }
 
         // ADDING ACTIVE CLASS IN THE SELECTED THUMBNAILS
