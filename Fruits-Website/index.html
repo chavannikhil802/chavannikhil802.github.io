@@ -26,15 +26,15 @@
                 <a href="">Learn More</a>
             </div>
             <div class="imgBox">
-                <img src="images/apple.png" alt="Apple">
+                <img src="images/apple.png" alt="Apple" class="fruits">
             </div>
         </div>
         <ul class="thumb">
-            <li data-text="Apple" class="active"><img src="images/apple.png" alt="Apple"></li>
-            <li data-text="Mango"><img src="images/mango.png" alt="Mango"></li>
-            <li data-text="Watermelon"><img src="images/watermelon.png" alt="Watermelon"></li>
-            <li data-text="Dragon Fruits"><img src="images/dragonfruits.png" alt="Dragon Fruits"></li>
-            <li data-text="Pineapple"><img src="images/pineApple.png" alt="Pineapple"></li>                                    
+            <li data-text="Apple" class="active"><img src="images/apple.png" alt="Apple" onclick="imgSlider('images/apple.png')"></li>
+            <li data-text="Mango"><img src="images/mango.png" alt="Mango" onclick="imgSlider('images/mango.png')"></li>
+            <li data-text="Watermelon"><img src="images/watermelon.png" alt="Watermelon" onclick="imgSlider('images/watermelon.png')"></li>
+            <li data-text="Dragon Fruits"><img src="images/dragonfruits.png" alt="Dragon Fruits" onclick="imgSlider('images/dragonfruits.png')"></li>
+            <li data-text="Pineapple"><img src="images/pineApple.png" alt="Pineapple" onclick="imgSlider('images/pineApple.png')"></li>                                    
         </ul>
         <ul class="sci">
             <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
@@ -43,6 +43,11 @@
         </ul>
     </section>
     <script>
+        // CHANGING THE IMAGE WHEN THE USER CLICKS ON THE THUMBNAIL
+        function imgSlider(anything) {
+            document.querySelector('.fruits').src = anything;
+        }
+
         // ADDING ACTIVE CLASS IN THE SELECTED THUMBNAILS
         let el = document.querySelectorAll('.thumb li');
         for(let i=0; i<el.length; i++) {
