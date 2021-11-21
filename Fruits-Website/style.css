@@ -113,3 +113,24 @@ header .navigation li a.active, header .navigation li a:hover {
 .content .imgBox img {
     max-width: 400px;
 }
+.thumb {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    bottom: 20px;
+}
+.thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+}
+.thumb li img {
+    max-width: 50px;
+}
