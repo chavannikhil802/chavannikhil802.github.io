@@ -203,6 +203,9 @@ header .navigation li a.active, header .navigation li a:hover {
         max-width: 300px;
         margin: 10% 0 20% 0;
     }
+    .thumb {
+        z-index: 2;
+    }
     .thumb li {
         margin: 0 3px;
         height: 55px;
