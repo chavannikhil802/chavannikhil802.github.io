@@ -172,3 +172,93 @@ header .navigation li a.active, header .navigation li a:hover {
     transform: scale(0.6);
     filter: invert(1);
 }
+/* CSS FOR MAKING THE SITE RESPONSIVE */
+@media(max-width: 991px) {
+    .bg::before {
+        display: none;
+    }
+    header {
+        padding: 20px;
+        padding-bottom: 120px;
+    }
+    section {
+        padding: 20px;
+    }
+    .content {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .content .textBox {
+        max-width: 100%;
+    }
+    .content .textBox h2 {
+        font-size: 2.5em;
+        margin-bottom: 15px;
+    }
+    .content .imgBox {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .content .imgBox img {
+        max-width: 300px;
+    }
+    .thumb li {
+        margin: 0 3px;
+        height: 55px;
+    }
+    .thumb li img {
+        max-width: 40px;
+    }
+    .thumb li::before {
+        position: absolute;
+        top: -150px;
+        left: 0;
+        font-size: 6em;
+    }
+    .sci {
+        background: rgba(0,0,0,0.1);
+        right: 0;
+        width: 50px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    header .navigation {
+        display: none;
+    }
+    header .navigation.active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fc4a55;
+        z-index: 10;
+        flex-direction: column;
+    }
+    header .navigation li a {
+        font-size: 1.2em;
+        margin: 5px 0;
+    }
+    .toggle {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: url("images/menu.png");
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 1000;
+    }
+    .toggle.active {
+        position: fixed;
+        right: 20px;
+        background: url("images/close.png");
+        background-size: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

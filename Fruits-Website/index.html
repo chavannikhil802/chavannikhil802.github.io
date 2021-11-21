@@ -12,6 +12,7 @@
         <div class="bg"></div>
         <header>
             <a href="#" class="logo">Fruits</a>
+            <div class="toggle"></div>
             <ul class="navigation">
                 <li><a class="active" href="#">Home</a></li>
                 <li><a href="#">Menu</a></li>
@@ -37,12 +38,20 @@
             <li data-text="Pineapple"><img src="images/pineApple.png" alt="Pineapple" onclick="imgSlider('images/pineApple.png'); changeBgColor('#ffb42c')"></li>                                    
         </ul>
         <ul class="sci">
-            <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+            <li style="padding-left: 10px"><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
             <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
             <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
         </ul>
     </section>
     <script>
+        let menuToggle = document.querySelector('.toggle');
+        let navigation = document.querySelector('.navigation');
+
+        menuToggle.onclick = function() {
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+
         // CHANGING THE IMAGE WHEN THE USER CLICKS ON THE THUMBNAIL
         function imgSlider(anything) {
             document.querySelector('.fruits').src = anything;
