@@ -75,10 +75,33 @@ header .navigation li a.active, header .navigation li a:hover {
     position: relative;
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .content .textBox {
     position: relative;
     max-width: 600px;
+}
+.content .textBox h2 {
+    color: #fff;
+    font-size: 4em;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+.content .textBox p {
+    color: #fff;
+    margin-top: 20px;
+}
+.content .textBox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #fff;
+    color: #333;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
 }
 .content .imgBox {
     position: relative;
