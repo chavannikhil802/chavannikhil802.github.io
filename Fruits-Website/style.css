@@ -76,3 +76,17 @@ header .navigation li a.active, header .navigation li a:hover {
     width: 100%;
     display: flex;
 }
+.content .textBox {
+    position: relative;
+    max-width: 600px;
+}
+.content .imgBox {
+    position: relative;
+    z-index: 1;
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+}
+.content .imgBox img {
+    max-width: 400px;
+}
