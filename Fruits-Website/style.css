@@ -201,7 +201,7 @@ header .navigation li a.active, header .navigation li a:hover {
     }
     .content .imgBox img {
         max-width: 300px;
-        margin-bottom: 20%;
+        margin: 20% 0;
     }
     .thumb li {
         margin: 0 3px;
