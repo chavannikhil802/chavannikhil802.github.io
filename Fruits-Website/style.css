@@ -186,7 +186,7 @@ header .navigation li a.active, header .navigation li a:hover {
     }
     .content {
         flex-direction: column;
-        margin-top: 100px;
+        margin-top: 50px;
     }
     .content .textBox {
         max-width: 100%;
