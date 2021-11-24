@@ -42,5 +42,25 @@ header ul li a {
 }
 header ul li a:hover, header ul li a.active {
     color: #2d88ff;
-
+}
+.app {
+    position: absolute;
+    right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #3b5998;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.app:hover {
+    background: #2d88ff;
+    color: #fff;
+}
+.app ion-icon {
+    margin-right: 10px;
+    font-size: 1.4em;
 }
