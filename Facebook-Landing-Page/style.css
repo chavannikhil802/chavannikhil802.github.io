@@ -68,6 +68,7 @@ header ul li a:hover, header ul li a.active {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .contentBx .text {
     max-width: 800px;
@@ -103,4 +104,13 @@ header ul li a:hover, header ul li a.active {
 .btn ion-con {
     margin-right: 10px;
     font-size: 1.4em;
+}
+.imgBx img {
+    margin-left: 50px;
+    margin-right: 100px;
+    max-width: 300px;   /* 260px */
+    display: none;
+}
+.imgBx img.active {
+    display: block;
 }
