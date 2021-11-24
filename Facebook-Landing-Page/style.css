@@ -64,3 +64,20 @@ header ul li a:hover, header ul li a.active {
     margin-right: 10px;
     font-size: 1.4em;
 }
+.contentBx {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contentBx .text {
+    max-width: 800px;
+}
+.contentBx .text h2 {
+    font-size: 6em;
+    color: #3b5998;
+}
+.contentBx .text p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.8em;
+}
