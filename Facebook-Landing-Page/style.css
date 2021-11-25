@@ -160,4 +160,8 @@ header ul li a:hover, header ul li a.active {
         padding: 30px;
         background: #fff;
     }
+    .contentBx {
+        flex-direction: column-reverse;
+        margin: 100px 0;
+    }
 }
