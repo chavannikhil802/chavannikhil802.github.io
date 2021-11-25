@@ -134,3 +134,19 @@ header ul li a:hover, header ul li a.active {
 .dots .dot.active {
     background: #fff;
 }
+.sci {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+}
+.sci li {
+    list-style: none;
+    margin-right: 20px;
+}
+.sci li a {
+    font-size: 1.8em;
+    color: #3b5998;
+}
+.sci li a:hover {
+    color: #2d88ff;
+}
