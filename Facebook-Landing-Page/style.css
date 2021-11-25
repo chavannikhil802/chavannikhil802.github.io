@@ -114,3 +114,23 @@ header ul li a:hover, header ul li a.active {
 .imgBx img.active {
     display: block;
 }
+.dots {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.dots .dot {
+    position: relative;
+    width: 10px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.25);
+    display: inline-flex;
+    margin: 5px;
+    cursor: pointer;
+}
+.dots .dot.active {
+    background: #fff;
+}
