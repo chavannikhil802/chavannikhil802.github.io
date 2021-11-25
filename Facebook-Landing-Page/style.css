@@ -108,7 +108,7 @@ header ul li a:hover, header ul li a.active {
 .imgBx img {
     margin-left: 50px;
     margin-right: 100px;
-    max-width: 300px;   /* 260px */
+    max-width: 260px;   /* 260px */
     display: none;
 }
 .imgBx img.active {
@@ -149,4 +149,11 @@ header ul li a:hover, header ul li a.active {
 }
 .sci li a:hover {
     color: #2d88ff;
+}
+
+/* RESPONSIVE CODE */
+@media(max-width: 991px) {
+    header {
+        padding: 30px;
+    }
 }
