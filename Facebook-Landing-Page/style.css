@@ -164,6 +164,9 @@ header ul li a:hover, header ul li a.active {
         flex-direction: column-reverse;
         margin: 100px 0;
     }
+    .app {
+        display: none;
+    }
     .dots {
         position: relative;
         top: initial;
