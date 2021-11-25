@@ -188,5 +188,11 @@ header ul li a:hover, header ul li a.active {
     .contentBx .text h2 {
         font-size: 3em;
     }
-    
+    .sci {
+        position: absolute;
+        bottom: 30px;
+        display: flex;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
