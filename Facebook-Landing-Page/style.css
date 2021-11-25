@@ -164,4 +164,22 @@ header ul li a:hover, header ul li a.active {
         flex-direction: column-reverse;
         margin: 100px 0;
     }
+    .dots {
+        position: relative;
+        top: initial;
+        transform: none;
+        right: initial;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .dots .dot {
+        width: 25px;
+        height: 10px;
+        background: #3b5998;
+        opacity: 0.2;
+    }
+    .dots .dot.active {
+        opacity: 1;
+    }
 }
