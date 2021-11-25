@@ -106,7 +106,7 @@ header ul li a:hover, header ul li a.active {
     font-size: 1.4em;
 }
 .imgBx img {
-    margin-left: 50px;
+    margin-left: 100px;
     margin-right: 100px;
     max-width: 260px;   /* 260px */
     display: none;
@@ -190,6 +190,10 @@ header ul li a:hover, header ul li a.active {
     }
     .contentBx .text h2 {
         font-size: 3em;
+    }
+    .imgBx img {
+        margin-left: auto;
+        margin-right: auto;
     }
     .sci {
         position: absolute;
