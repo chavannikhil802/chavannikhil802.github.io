@@ -150,6 +150,9 @@ header ul li a:hover, header ul li a.active {
 .sci li a:hover {
     color: #2d88ff;
 }
+#apple, #play {
+    margin: 4px 4px 0 0;
+}
 
 /* RESPONSIVE CODE */
 @media(max-width: 991px) {
