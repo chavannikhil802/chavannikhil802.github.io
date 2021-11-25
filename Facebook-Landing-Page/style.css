@@ -182,4 +182,11 @@ header ul li a:hover, header ul li a.active {
     .dots .dot.active {
         opacity: 1;
     }
+    .contentBx .text {
+        text-align: center;
+    }
+    .contentBx .text h2 {
+        font-size: 3em;
+    }
+    
 }
